@@ -1,0 +1,10 @@
+spring:
+    datasource:
+      url: jdbc:mysql://localhost/oauth2init?serverTimezone=UTC
+      hikari:
+        username: oauth2init
+        password: oauth2_123
+        #driver-class-name: com.mysql.jdbc.Driver
+        #jdbc-url: jdbc:mysql://localhost/oauth2init?serverTimezone=UTC
+        pool-name: hikari-oauth2init
+        auto-commit: false
